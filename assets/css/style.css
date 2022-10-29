@@ -25,9 +25,14 @@ header {
     justify-content: space-between;
 }
 
+a {
+    text-decoration: none;
+}
+
 #logo {
     font-size: 200%;
- 
+    line-height: 75px;
+    text-decoration: none;
 }
 
 #menu {
@@ -36,9 +41,16 @@ header {
     display: flex;
 }
 
-
-
 #menu li {
     list-style: none;
     margin-right: 30px;
+}
+
+#menu a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    text-decoration: underline;
 }
