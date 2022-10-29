@@ -55,8 +55,23 @@ a {
     text-decoration: underline;
 }
 
+.section-hero {
+    overflow: hidden;
+}
+
 #hero-img {
     background: url(../imgs/hero-image.webp) no-repeat center/cover;
+    animation: hero-zoom 5s forwards;
     height: 600px;
-    width: 100%
+    width: 100%;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
 }
