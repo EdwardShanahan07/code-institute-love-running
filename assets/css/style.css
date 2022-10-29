@@ -55,8 +55,9 @@ a {
     text-decoration: underline;
 }
 
-.section-hero {
+#section-hero {
     overflow: hidden;
+    position: relative;
 }
 
 #hero-img {
@@ -64,6 +65,27 @@ a {
     animation: hero-zoom 5s forwards;
     height: 600px;
     width: 100%;
+}
+
+.hero-text, .hero-text h2 {
+    color: #fff;
+}
+
+.hero-text {
+    background-color: rgba(241, 109, 107, 0.7);
+    font-size: 130%;
+    font-family: 'Oswald', sans-serif; 
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+    position: absolute;
+    bottom: 30px;
+    right: 150px
 }
 
 @keyframes hero-zoom {
