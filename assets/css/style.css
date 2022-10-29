@@ -19,10 +19,26 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
-#logo {
-    font-size: 200%;
-    float: left;
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-/* 
- */
+#logo {
+    font-size: 200%;
+ 
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    display: flex;
+}
+
+
+
+#menu li {
+    list-style: none;
+    margin-right: 30px;
+}
