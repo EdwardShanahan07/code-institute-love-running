@@ -113,10 +113,30 @@ a {
     flex-basis: 33%;
 }
 
+.about-left-heading {
+    width: 60%;
+    line-height: 20px;
+    margin-bottom: 50px;
+    margin: 0 auto 50px auto;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px;
+}
+
 .about-center {
     flex-basis: 33%;
 }
 
 .about-right {
     flex-basis: 33%;
+}
+
+.about-right-heading {
+    text-align: right;
+    width: 60%;
+    line-height: 20px;
+    margin: 0 0 50px 0;
 }
