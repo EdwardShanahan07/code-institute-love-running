@@ -104,6 +104,12 @@ a {
     height: 600px;
 }
 
+#welcome {
+    font-size: 280%;
+    text-align: center;
+    margin: 20px 0;
+}
+
 .about-wrapper {
     display: flex;
     padding-top: 30px;
@@ -128,6 +134,21 @@ hr {
 
 .about-center {
     flex-basis: 33%;
+}
+
+.center-wrapper {
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.center-bg {
+    background: url(../imgs/ethos-center-image.jpeg) no-repeat center/cover;
+    border-radius: 50%;
+    height: 100%;
 }
 
 .about-right {
