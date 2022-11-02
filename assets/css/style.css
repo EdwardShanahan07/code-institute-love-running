@@ -219,3 +219,43 @@ footer {
     width: 100%;
 }
 
+@media (max-width: 1200px) {
+    #about {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+    
+    .about-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .about-left {
+        flex-basis: 33%;
+    }
+    
+    hr {
+        display: none;
+    }
+    
+    .about-center {
+        order: 3;
+    }
+    
+    .center-bg {
+        background: url(../imgs/ethos-center-image.jpeg) no-repeat center/cover;
+        border-radius: 50%;
+        height: 100%;
+    }
+    
+    .about-right {
+        flex-basis: 33%;
+    }
+}
+
